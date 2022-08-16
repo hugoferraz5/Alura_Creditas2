@@ -13,7 +13,7 @@ Nesse projeto proposto pela Alura, obtive um modelo de Regressão com o objetivo
 Informações sobre a Creditas podem ser encontradas nesse link: <a href="https://www.creditas.com/quem-somos">siteCreditas</a>
 
 O projeto completo pode ser encontrado neste link:
-<a href="https://github.com/hugoferraz5/Webmotors_leads/blob/main/Classifica%C3%A7%C3%A3o_webmotors.ipynb">ProjetoAlura</a>
+<a href="https://github.com/hugoferraz5/Alura_Creditas2/blob/main/Creditas_alura1.ipynb">ProjetoAlura</a>
 
 |Atributo | Definição
 ------------ | -------------
