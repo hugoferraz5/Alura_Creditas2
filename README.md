@@ -84,6 +84,9 @@ O projeto completo pode ser encontrado neste link:
 * **H1**. Os 10 bairros com mais imóveis em São Paulo, seguem a mesma ordem nos somatório dos preços dos imóveis. 
 
 **FALSO**: Observamos que há uns maiores que os outros como **Brooklin Paulista** que é o 2º com mais imóveis atrás nos somatórios de preços de **Cidade Jardim** que é o 3º com mais imóveis. **Indicamos que o bairro de Brooklin Paulista pode ser uma opção mais fácil de compra de imóvel por ser o 2º bairro com mais imóveis em São Paulo e os preços mais baixos(somatório)**.
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/5e145557-9645-4242-a13a-b93a519910fd.png" alt="pic1" style="zoom:60% ;" />
+<spacer type="horizontal" width="10" height="10">  </spacer>
+
 <img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/fa86e17e-5ff5-4863-9e5a-f1aeed8f4d48.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
@@ -106,6 +109,12 @@ O projeto completo pode ser encontrado neste link:
 **VERDADEIRO**: A maioria dos imóveis possuem valor do m2 abaixo dos 20000 reais e estão localizados em áreas onde as médias de pessoas com rendimento nominal mensal é abaixo dos 20000 reais, ou seja, baixo também.A partir do momento que o valor do m2 sobe acima dos 20000 reais, a renda nominal média continua baixo, e a partir do momento que a renda nominal média fica acima dos 20000 reais, o valor do m2 continua baixo também , mostrado também na correlação que é menor que 0.5 e tudo isso, talvez por causa da aŕea localizada ou por opção das pessoas mesmo. **Pessoas com rendas mais baixas não precisam adquirir imóveis com valores muito altos como observamos no gráfico em algumas situações. Existem vários imóveis com valores/m2 abaixo dos 20000 reais e com atributos(metragem,quartos,banheiros e vagas) não tão diferentes dos imóveis de valores acima de 20000/m2**.
 
 <img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b54affa3-bc3e-4d60-a3c2-bbc87131929f.png" alt="pic1" style="zoom:60% ;" />
+<spacer type="horizontal" width="10" height="10">  </spacer>
+
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b3f3ba5c-303f-446f-af48-d2d3b84f3ff5.png" alt="pic1" style="zoom:60% ;" />
+<spacer type="horizontal" width="10" height="10">  </spacer>
+
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/4a4a0603-2f69-4d4e-b111-9e0ae9e8fa15.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 # 6 Machine Learning
