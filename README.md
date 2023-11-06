@@ -77,7 +77,7 @@ O projeto completo pode ser encontrado neste link:
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 **Variável Categórica**
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/a908bdea-1b6d-4813-af12-7cc198a57096.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/f13f2156-d9bc-4d04-a813-0ca989665f7d.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 ## Insights de negócio
