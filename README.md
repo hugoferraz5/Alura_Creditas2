@@ -110,7 +110,7 @@ O projeto completo pode ser encontrado neste link:
 
 # 6 Machine Learning
 
-Usamos alguns modelos de Machine Learning de regressão com o objetivo de obter a melhor acurácia e o menor número de erros possíveis.Como observado, o modelo **Randon Forest Regressor** foi o que teve o melhor resultado do **RMSE(1.497.535)** dentre todos usados, com os valores bem melhores como a acurácia(R2_Score), erro médio absoluto(MAE), raiz quadrada do erro médio(RMSE) e a média percentual absoluta do erro(MAPE), logo o utilizamos para obter resultados mais precisos no modelo final.
+Usamos alguns modelos de Machine Learning de regressão com o objetivo de obter a melhor acurácia e o menor número de erros possíveis.Como observado, o modelo **Randon Forest Regressor** foi o que teve o melhor resultado do **RMSE(0.290553)** dentre todos usados, com os valores bem melhores como a acurácia(R2_Score), erro médio absoluto(MAE), raiz quadrada do erro médio(RMSE) e a média percentual absoluta do erro(MAPE), logo o utilizamos para obter resultados mais precisos no modelo final.
 
 <img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/14dc854b-831b-4730-9dfe-6ea9894122d1.jpg" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
