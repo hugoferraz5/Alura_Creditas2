@@ -153,3 +153,20 @@ O modelo usado foi o **Randon Forest Regressor** e os resultados obtidos foram e
 
 <img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/71d2ed3c-301c-4943-a130-042ba74aac2c.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
+
+# 7 Próximos passos
+
+- Utilizar outros Modelos e Machine Learning para testar se os resultados podem ser ainda melhores.
+- Melhorar as respostas do telgregam bot com implementação de gráficos.
+- Adicionar mais Hipóteses para análise de dados.
+- Melhorar as análises de dados com adições de gráficos mais claros.
+
+- # 8.0 - Ferramentas utilizadas
+
+Manipulação e limpeza dos dados: pandas, numpy
+
+VIsualização dos dados: matplotlib, seaborn
+
+Machine learning: Regressão (scikit-learn e Random Forrest Regressor), selação de features (Boruta)
+
+Ambiente Cloud: Flask, requests, Ngrok, desenho de API e AWS
