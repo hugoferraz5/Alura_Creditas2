@@ -128,7 +128,7 @@ O modelo usado foi o **Randon Forest Regressor** e os resultados obtidos foram e
 
 |Modelo                  | MAE                  | MAPE                |f1-RMSE               | R2_Score AUC       |  
 :----------------------- | :--------------------| :------------------ | :--------------------| :------------------| 
-|Randon Forest Regressor | 751199.039667        | 0.301615            | 1.571333e+06         |0.776442            |
+|Randon Forest Regressor | 0.242175             | 0.016765            | 0.322253             |0.874314            |
 
 * Nesse prmeiro gráfico podemos observar os dados não completamente iguais, com algumas diferenças, mas com uma certa similaridade entre os valores reais e as predições.
 
