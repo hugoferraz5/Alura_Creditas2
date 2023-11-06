@@ -64,19 +64,19 @@ O projeto completo pode ser encontrado neste link:
 
 # 5 Análises exploratórias dos dados
 **Variável de Destino**
-<img src="https://user-images.githubusercontent.com/91911052/184802186-0ee4af5b-7742-4746-975a-24f8ccd83b45.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/5b4ca46d-95da-40fe-884b-fa15131ac984.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 
 **Variável Numérica**
-<img src="https://user-images.githubusercontent.com/91911052/184802297-479dab93-9760-4426-960b-7fae784c6d39.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/5f027ef2-27cf-43d0-98a5-a29472100ae6.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
-<img src="https://user-images.githubusercontent.com/91911052/184802348-e8eb1c01-9e74-42cb-878b-3d96f5569563.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/6fcd77a1-1a73-4096-ba46-565f8fa4309c.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 **Variável Categórica**
-<img src="https://user-images.githubusercontent.com/91911052/184802417-1cb0b321-29a5-49d1-af72-b6637a8c9d54.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/a908bdea-1b6d-4813-af12-7cc198a57096.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 ## Insights de negócio
@@ -84,42 +84,42 @@ O projeto completo pode ser encontrado neste link:
 * **H1**. Os 10 bairros com mais imóveis em São Paulo, seguem a mesma ordem nos somatório dos preços dos imóveis.
 
 **FALSO**: Observamos que há uns maiores que os outros como **Brooklin Paulista** que é o 2º com mais imóveis atrás nos somatórios de preços de **Cidade Jardim** que é o 3º com mais imóveis. **Indicamos que o bairro de Brooklin Paulista pode ser uma opção mais fácil de compra de imóvel por ser o 2º bairro com mais imóveis em São Paulo e os preços mais baixos(somatório)**.
-<img src="https://user-images.githubusercontent.com/91911052/184802886-37416d7e-3259-4c2f-9f57-feaff033d060.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/fa86e17e-5ff5-4863-9e5a-f1aeed8f4d48.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 * **H2**. Os 10 bairros com mais imóveis em São Paulo seguem a mesma ordem no número de vagas e quartos nos imóveis de acordo com suas metragens.
 
 **VERDADEIRO**: Observamos que todos os 10 bairros possuem similaridade quanto a ordem de vagas, quartos e metragens.
 
-<img src="https://user-images.githubusercontent.com/91911052/184803043-857ae6de-be13-4ccd-a26b-7a4f6930a21d.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/1e237b92-c16a-44ee-93a9-4b0fbe1789c6.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 * **H3**.Os 10 bairros com mais imóveis em São Paulo seguem a mesma ordem na faixa das metragens e preços/m² dos imóveis.
 
 **FALSO**: Observamos que há faixas de metragens maiores ou menores que outros e não seguem a mesma ordem da quantidade de imóveis por bairro. **Cidade Jardim** e **Jardim Guedala**  são os que possuem as faixas de maiores metragens. **Para pessoas que procuram conforto em relação ao tamanho do imóvel, procurem nos bairros Cidade Jardim ou Jardim Guedala que é onde possuem faixa de preços similares aos outros e metragens maiores**.
 
-<img src="https://user-images.githubusercontent.com/91911052/184803204-e9358403-97d2-4a06-8659-5c92275f6a1a.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/00a7a56d-e204-4d13-91ee-a1553da4b11a.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 * **H4**. A maioria das médias de pessoas com rendimento nominal médio mensal baixo, possui imóvel com valor de m² baixo também.
 
 **VERDADEIRO**: Observamos que a maioria das médias de pessoas entre a faixa 0 e 20000 reais de renda média possuem imóveis com preço de m² entre 0 e 20000 reais, ou seja, baixo também. Alguns com renda baixa possuem imóveis com preço do m² mais caro e outros com renda alta, mas com imóveis com preço do m² mais barato, talvez por causa do bairro ou por opção mesmo. **Alertamos que pessoas com rendas mais baixas, não adquiram imóveis com valores muito altos como observamos no gráfico em algumas situações**.
 
-<img src="https://user-images.githubusercontent.com/91911052/184803381-108d89f7-bc5d-4363-9467-91e98e979350.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b54affa3-bc3e-4d60-a3c2-bbc87131929f.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 # 6 Machine Learning
 
 Usamos alguns modelos de Machine Learning de regressão com o objetivo de obter a melhor acurácia e o menor número de erros possíveis.Como observado, o modelo **Randon Forest Regressor** foi o que teve o melhor resultado do **RMSE(1.497.535)** dentre todos usados, com os valores bem melhores como a acurácia(R2_Score), erro médio absoluto(MAE), raiz quadrada do erro médio(RMSE) e a média percentual absoluta do erro(MAPE), logo o utilizamos para obter resultados mais precisos no modelo final.
 
-<img src="https://user-images.githubusercontent.com/91911052/184805470-c5cc4fbf-3402-4813-9c2d-fc4cb4876a75.jpg" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/14dc854b-831b-4730-9dfe-6ea9894122d1.jpg" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 ## 6.1 Resultados para o negócio
 
 Esse projeto visa avaliar quanto vale um determinado imóvel na cidade de São Paulo que é usado como garantia de um empréstimo feito por um cliente na empresa **Creditas** .Após todas as análises exploratórias dos dados de imóveis de São Paulo e aplicações de modelos de Machine Learning, conseguimos obter as predições desses mesmos dados com uma boa acurácia e baixo erro. Com esses valores obtidos podemos estimar aproximadamente quanto a empresa **Creditas** vai poder emprestar à um possível cliente que deseje ter acesso a esse empréstimo no melhor e pior cenário.
 
-<img src="https://user-images.githubusercontent.com/91911052/184809619-7304973d-f170-4c79-89c6-f02dd3d7df9d.jpg" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/49893603-027c-42b6-91ba-c110f833df79.jpg" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 ## 6.2 Desempenho de Machine Learning
@@ -132,15 +132,15 @@ O modelo usado foi o **Randon Forest Regressor** e os resultados obtidos foram e
 
 * Nesse prmeiro gráfico podemos observar os dados não completamente iguais, com algumas diferenças, mas com uma certa similaridade entre os valores reais e as predições.
 
-<img src="https://user-images.githubusercontent.com/91911052/184807299-db343334-609f-44de-a957-33ea3f301057.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/7b22eaa2-f0e1-46a3-82b1-076def99028e.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 * Nesse segundo gráfico observamos a taxa de erro de cada valor de anúncio. Alguns poucos valores das predições 4 vezes maiores que o valor real de anúncio, mas em geral estão todos bem próximos um do outro(próximos de 1).
 
-<img src="https://user-images.githubusercontent.com/91911052/184807345-98dfdd3c-7dac-4ff0-97a4-2a47e06d221d.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b0116c4f-54f6-4a7e-90e3-026491c4e2ea.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 * Nesse terceiro gráfico podemos observar as dispersões entre valor real e predições, no qual podemos notar que há uma boa correlação entre os 2 dados.
 
-<img src="https://user-images.githubusercontent.com/91911052/184807410-982ce98e-f6b9-4703-83bb-b552b8ed1400.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/71d2ed3c-301c-4943-a130-042ba74aac2c.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
