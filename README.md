@@ -164,7 +164,7 @@ O modelo usado foi o **Randon Forest Regressor** e os resultados obtidos foram e
 - Adicionar mais Hipóteses para análise de dados.
 - Melhorar as análises de dados com adições de gráficos mais claros.
 
-- # 8.0 - Ferramentas utilizadas
+# 8.0 - Ferramentas utilizadas
 
 Manipulação e limpeza dos dados: pandas, numpy
 
