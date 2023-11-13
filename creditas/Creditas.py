@@ -13,8 +13,6 @@ class Creditas(object):
     def data_cleaning(self, df1):
         ##2.4 Formatação dos dados
 
-        # Excluindo coluna inútil
-        df1.drop(["tipo_anuncio", "valor"], axis=1, inplace=True)
 
         # Excluindo colunas com valores únicos
         df1.drop(
@@ -425,7 +423,7 @@ class Creditas(object):
                 "quant_dom_part",
                 "quant_mor",
             ]
-        ]
+        ].copy()
         numerical = df5[
             [
                 "metragem",
@@ -445,35 +443,17 @@ class Creditas(object):
                 "v011",
                 "v012",
             ]
-        ]
-        binary = df5[["situacao_setor", "tipo_setor"]]
+        ].copy()
+        binary = df5[["situacao_setor", "tipo_setor"]].copy()
 
-        Alvo_var = df5[["valor_anuncio"]]
+        Alvo_var = df5[["valor_anuncio"]].copy()
         Alvo_var["valor_anuncio"] = np.log1p(Alvo_var["valor_anuncio"])
 
         numerical.drop(columns=["valor_anuncio"], inplace=True)
 
-        numerical_1 = self.Robust_scaler.fit_transform(
-            numerical[
-                [
-                    "metragem",
-                    "valor_mm",
-                    "valor_m2",
-                    "v001",
-                    "v002",
-                    "v003",
-                    "v004",
-                    "v005",
-                    "v006",
-                    "v007",
-                    "v008",
-                    "v009",
-                    "v010",
-                    "v011",
-                    "v012",
-                ]
-            ].values
-        )
+        numerical_1 = self.Robust_scaler.fit_transform(numerical[["metragem","valor_mm","valor_m2","v001","v002","v003",
+                                                                  "v004","v005","v006","v007","v008","v009",
+                                                                  "v010","v011","v012",]].values)
         numerical_2 = pd.DataFrame(
             numerical_1,
             columns=numerical[
@@ -531,4 +511,4 @@ class Creditas(object):
         pred = model.predict(test_data)
         original_data["predição"] = np.expm1(pred)
 
-        return original_data.to_json(orient="records", date_format="iso")
+        return original_data
