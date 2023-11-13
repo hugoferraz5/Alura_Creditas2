@@ -124,14 +124,14 @@ O projeto completo pode ser encontrado neste link:
 
 Usamos alguns modelos de Machine Learning de regressão com o objetivo de obter a melhor acurácia e o menor número de erros possíveis.Como observado, o modelo **Randon Forest Regressor** foi o que teve o melhor resultado do **RMSE(0.290553)** dentre todos usados, com os valores bem melhores como a acurácia(R2_Score), erro médio absoluto(MAE), raiz quadrada do erro médio(RMSE) e a média percentual absoluta do erro(MAPE), logo o utilizamos para obter resultados mais precisos no modelo final.
 
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/14dc854b-831b-4730-9dfe-6ea9894122d1.jpg" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/f3e63c7d-8b38-4832-bed1-b9ec3f623842.jpg" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 ## 6.1 Resultados para o negócio
 
 Esse projeto visa avaliar quanto vale um determinado imóvel na cidade de São Paulo que é usado como garantia de um empréstimo feito por um cliente na empresa **Creditas** .Após todas as análises exploratórias dos dados de imóveis de São Paulo e aplicações de modelos de Machine Learning, conseguimos obter as predições desses mesmos dados com uma boa acurácia e baixo erro. Com esses valores obtidos podemos estimar aproximadamente quanto a empresa **Creditas** vai poder emprestar à um possível cliente que deseje ter acesso a esse empréstimo no melhor e pior cenário.
 
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/49893603-027c-42b6-91ba-c110f833df79.jpg" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/067ae7be-c2bf-45e6-9f29-a9c1b6edd335.jpg" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 ## 6.2 Desempenho de Machine Learning
@@ -144,17 +144,17 @@ O modelo usado foi o **Randon Forest Regressor** e os resultados obtidos foram e
 
 * Nesse prmeiro gráfico podemos observar os dados não completamente iguais, com algumas diferenças, mas com uma certa similaridade entre os valores reais e as predições.
 
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/7b22eaa2-f0e1-46a3-82b1-076def99028e.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/6df0aa06-57c1-4c78-abde-fcb08cac93f8.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 * Nesse segundo gráfico observamos a taxa de erro de cada valor de anúncio. Alguns poucos valores das predições 4 vezes maiores que o valor real de anúncio, mas em geral estão todos bem próximos um do outro(próximos de 1).
 
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b0116c4f-54f6-4a7e-90e3-026491c4e2ea.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/32b55eb4-1b77-446c-b685-2ce63002199e.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 * Nesse terceiro gráfico podemos observar as dispersões entre valor real e predições, no qual podemos notar que há uma boa correlação entre os 2 dados.
 
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/71d2ed3c-301c-4943-a130-042ba74aac2c.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/6299ad55-b0f3-488e-bcfa-3d7641bc2d22.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 # 7 Próximos passos
