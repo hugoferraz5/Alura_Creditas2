@@ -4,6 +4,7 @@ import requests
 import pandas as pd
 import os
 from flask import Flask, request, Response
+from handler import creditas_predict
 
 # constants
 data_path = '' #'/home/hugo/Hugo/Projetos/Projeto-SaoPaulo/Projeto/'
@@ -15,7 +16,7 @@ data_path = '' #'/home/hugo/Hugo/Projetos/Projeto-SaoPaulo/Projeto/'
 #https://api.telegram.org/bot6808034007:AAHBOUQNPU62qcPP6CyFvlZ-BesMANOeRGc/getUpdates
 
 # Set webhook
-#https://api.telegram.org/bot6808034007:AAHBOUQNPU62qcPP6CyFvlZ-BesMANOeRGc/setWebhook?url=https://0f82-54-91-48-217.ngrok-free.app/
+#https://api.telegram.org/bot6808034007:AAHBOUQNPU62qcPP6CyFvlZ-BesMANOeRGc/setWebhook?url=url=https://36f2-3-81-101-34.ngrok-free.app/
 
 def send_message(chat_id, text):
     url = 'https://api.telegram.org/bot{}/'.format(token)
@@ -60,12 +61,14 @@ def load_dataset(sales_id):
     df_predict = data_vendas_censo.copy()
     df_predict = df_predict.head(30)
 
+    df_predict.drop(["tipo_anuncio", "valor"], axis=1, inplace=True)
+
     # Choose store for prediction
     df_predict = df_predict.iloc[[sales_id]]
 
     if not df_predict.empty:
         # Convert test dataframe in json
-        data = json.dumps(df_predict.to_dict(orient='records'))
+        data = df_predict
 
     else:
         data = 'error'
@@ -73,15 +76,9 @@ def load_dataset(sales_id):
     return data
 
 def predict_sales(data):
-    # API Call
-    url = '0.0.0.0:5001/creditas/predict'
-    header = {'Content-type': 'application/json'}
-    #data = data
+    data = creditas_predict(data)
 
-    r = requests.post(url, data=data, headers=header)
-    print('Status Code {}'.format(r.status_code))
-
-    d1 = pd.DataFrame(r.json(), columns=r.json()[0].keys())
+    d1 = pd.DataFrame(data, columns=data.columns)
 
     return d1
 
@@ -102,7 +99,7 @@ def index():
             #loading data
             data = load_dataset(sales_id)
 
-            if data != 'error':
+            if data is not None:
                 #prediction
                 d1 = predict_sales(data)
                 #calculation

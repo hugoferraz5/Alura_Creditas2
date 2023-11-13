@@ -8,42 +8,23 @@ from creditas.Creditas import Creditas
 # loading model
 model = pickle.load(open("models/modelo_final.pkl", "rb"))
 
-# initialize API
-app = Flask(__name__)
 
+def creditas_predict(data):
+    data = pd.DataFrame( data )
 
-@app.route("/creditas/predict", methods=["POST"])
-def creditas_predict():
-    test_json = request.get_json()
+    # Instantiate Rossmann class
+    pipeline = Creditas()
 
-    if test_json: # there is data
-        if isinstance( test_json, type(dict) ): # unique example
-            test_raw = pd.DataFrame( test_json )
-            
-        else: # multiple example
-            test_raw = pd.DataFrame( test_json )
+    # data cleaning
+    df1 = pipeline.data_cleaning(data)
 
-        # Instantiate Rossmann class
-        pipeline = Creditas()
+    # feature engineering
+    df2 = pipeline.feature_engineering(df1)
 
-        # data cleaning
-        df1 = pipeline.data_cleaning(test_raw)
+    # data preparation
+    df3 = pipeline.data_preparation(df2)
 
-        # feature engineering
-        df2 = pipeline.feature_engineering(df1)
+    # prediction
+    df_response = pipeline.get_prediction(model, data, df3)
 
-        # data preparation
-        df3 = pipeline.data_preparation(df2)
-
-        # prediction
-        df_response = pipeline.get_prediction(model, test_raw, df3)
-
-        return df_response
-
-    else:
-        return Response("{}", status=200, mimetype="application/json")
-
-
-if __name__ == "__main__":
-    port = os.environ.get("PORT", 5001)
-    app.run(host="0.0.0.0", port=port)
+    return df_response
