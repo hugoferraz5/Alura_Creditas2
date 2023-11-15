@@ -172,4 +172,4 @@ VIsualização dos dados: matplotlib, seaborn
 
 Machine learning: Regressão (scikit-learn e Random Forrest Regressor), selação de features (Boruta)
 
-Ambiente Cloud: Flask, requests, Ngrok, desenho de API e AWS
+Ambiente Cloud: Flask, requests, Ngrok, desenho de API, AWS e Telegram BOT
