@@ -97,7 +97,7 @@ O projeto completo pode ser encontrado neste link:
 
 **VERDADEIRO**: Observamos que todos os 10 bairros possuem similaridade quanto a ordem de vagas, quartos e metragens.
 
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/1e237b92-c16a-44ee-93a9-4b0fbe1789c6.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/8dce8daa-1fbd-45a8-8baf-470bdf05af81.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 * **H3**.Os 10 bairros com mais imóveis em São Paulo seguem a mesma ordem na faixa das metragens e preços/m² dos imóveis.
