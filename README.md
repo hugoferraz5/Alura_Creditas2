@@ -67,7 +67,7 @@ O projeto completo pode ser encontrado neste link:
 
 # 5 Análises exploratórias dos dados
 **Variável de Destino**
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/5b4ca46d-95da-40fe-884b-fa15131ac984.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/a694910f-6430-4ed9-ad29-b0c9728d3b99.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 
@@ -79,7 +79,7 @@ O projeto completo pode ser encontrado neste link:
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 **Variável Categórica**
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/f13f2156-d9bc-4d04-a813-0ca989665f7d.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b6d13dfd-2978-438e-a569-22c0a46ad226.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 ## Insights de negócio
@@ -90,7 +90,7 @@ O projeto completo pode ser encontrado neste link:
 <img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/5e145557-9645-4242-a13a-b93a519910fd.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/fa86e17e-5ff5-4863-9e5a-f1aeed8f4d48.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/6569e522-d09a-4dac-b305-c97d63af1846.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 * **H2**. Os 10 bairros com mais imóveis em São Paulo seguem a mesma ordem no número de vagas e quartos nos imóveis de acordo com suas metragens.
@@ -111,7 +111,7 @@ O projeto completo pode ser encontrado neste link:
 
 **VERDADEIRO**: A maioria dos imóveis possuem valor do m2 abaixo dos 20000 reais e estão localizados em áreas onde as médias de pessoas com rendimento nominal mensal é abaixo dos 20000 reais, ou seja, baixo também.A partir do momento que o valor do m2 sobe acima dos 20000 reais, a renda nominal média continua baixo, e a partir do momento que a renda nominal média fica acima dos 20000 reais, o valor do m2 continua baixo também , mostrado também na correlação que é menor que 0.5 e tudo isso, talvez por causa da aŕea localizada ou por opção das pessoas mesmo. **Pessoas com rendas mais baixas não precisam adquirir imóveis com valores muito altos como observamos no gráfico em algumas situações. Existem vários imóveis com valores/m2 abaixo dos 20000 reais e com atributos(metragem,quartos,banheiros e vagas) não tão diferentes dos imóveis de valores acima de 20000/m2**.
 
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b54affa3-bc3e-4d60-a3c2-bbc87131929f.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/c932093b-785e-4cc5-8f3c-e0668a5c5ded.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 <img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b3f3ba5c-303f-446f-af48-d2d3b84f3ff5.png" alt="pic1" style="zoom:60% ;" />
