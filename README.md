@@ -1,5 +1,5 @@
 # Alura_Creditas
-Projeto de regressão com objetivo de obter predições de valores de imóveis da cidade de São Paulo.
+Este projeto tem como objetivo principal desenvolver um modelo de regressão capaz de realizar previsões precisas dos valores de imóveis na cidade de São Paulo usado como garantia de um empréstimo feito por um cliente na empresa Creditas. 
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/91911052/184797458-b67d17bd-d04f-4fb5-bfa0-79617cb8a3b9.jpg" width="700px" />
