@@ -63,7 +63,7 @@ O projeto completo pode ser encontrado neste link:
 * **Algoritmo de Machine Learning** - Com os dados modelados, vamos usar alguns algoritmos de Machine Learning de regressão para achar a melhor acurácia e baixos erros. Uso de Validação Cruzada e hiperparâmetros para deixa-la  ainda mais precisos os modelos e colocar em prática no final.
 * **Avaliação de Algoritmo** - Comparação dos resultados dos algoritmos de regressão usados e utilizar o de melhor acurácia e baixos erros para colocar em prática a questão de negócios.
 * **Deploy** - Através do cloud da AWS, implantamos o nosso modelo de Machine Learning e esse modelo responderá requisições via API por meio do Telegram Bot.
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/3367ccbc-fcf0-43a6-9f4c-395eb9c0192c.png" alt="pic1" style="zoom:55% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/98d4ccb1-16d8-4167-8f25-b38c8470b51a" alt="pic1" style="zoom:55% ;" />
 
 # 5 Análises exploratórias dos dados
 **Variável de Destino**
