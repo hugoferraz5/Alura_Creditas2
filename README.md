@@ -69,69 +69,16 @@ O projeto completo pode ser encontrado neste link:
 
 <img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/778d4365-6265-4262-bfe9-61dadd5b24cf" alt="pic1" style="zoom:55% ;" />
 
-# 5 Análises exploratórias dos dados
-**Variável de Destino**
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/e1fe9826-e8ec-4081-985e-24b1ff860389" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
 
+# 5 Insights de negócio
 
-**Variável Numérica**
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/4d60a24e-860d-4cca-a6cb-3758f106af81" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
+* Os 10 bairros com o maior número de imóveis em São Paulo podem não necessariamente coincidir com os bairros que apresentam os preços imobiliários mais elevados. Por exemplo, mesmo que Brooklin Paulista tenha uma quantidade significativa de imóveis, os valores associados a esses imóveis podem ser relativamente mais baixos em comparação com outros bairros. Consequentemente, os empréstimos concedidos a pessoas que possuem imóveis no Brooklin Paulista podem não atingir montantes tão altos quanto em outros locais com valores imobiliários mais elevados.
+  
+* Os 10 bairros mais densamente povoados por imóveis em São Paulo mantêm a mesma ordem tanto no número de vagas quanto no número de quartos, alinhando-se com as características de metragem dessas propriedades. 
 
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/f0cd0226-87b7-47a7-8dc4-916158ea8337" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-**Variável Categórica**
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/bffc17fc-71fc-48bc-8e31-46b4afde060d" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/8c053342-39a0-4600-865d-369689d1f3a3" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/75db925e-bede-49f9-8105-35059077b097" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b4c4eed5-24c8-4a76-8505-798f8206345d" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-## Insights de negócio
-
-* **H1**. Os 10 bairros com mais imóveis em São Paulo, seguem a mesma ordem nos somatório dos preços dos imóveis. 
-
-**FALSO**: Observamos que há uns maiores que os outros como **Brooklin Paulista** que é o 2º com mais imóveis atrás nos somatórios de preços de **Cidade Jardim** que é o 3º com mais imóveis. **Indicamos que o bairro de Brooklin Paulista pode ser uma opção mais fácil de compra de imóvel por ser o 2º bairro com mais imóveis em São Paulo e os preços mais baixos(somatório)**.
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/5e145557-9645-4242-a13a-b93a519910fd.png" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/6569e522-d09a-4dac-b305-c97d63af1846.png" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-* **H2**. Os 10 bairros com mais imóveis em São Paulo seguem a mesma ordem no número de vagas e quartos nos imóveis de acordo com suas metragens.
-
-**VERDADEIRO**: Observamos que todos os 10 bairros possuem similaridade quanto a ordem de vagas, quartos e metragens.
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/8dce8daa-1fbd-45a8-8baf-470bdf05af81.png" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-* **H3**.Os 10 bairros com mais imóveis em São Paulo seguem a mesma ordem na faixa das metragens e preços/m² dos imóveis.
-
-**FALSO**: Observamos que há faixas de metragens maiores ou menores que outros e não seguem a mesma ordem da quantidade de imóveis por bairro. **Cidade Jardim** e **Jardim Guedala**  são os que possuem as faixas de maiores metragens. **Para pessoas que procuram conforto em relação ao tamanho do imóvel, procurem nos bairros Cidade Jardim ou Jardim Guedala que é onde possuem faixa de preços similares aos outros e metragens maiores**.
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/00a7a56d-e204-4d13-91ee-a1553da4b11a.png" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-* **H4**. Os valores das médias apenas de pessoas com rendimento nominal médio mensal é diretamente proporcional ao valor do m² dos imóveis.
-
-**VERDADEIRO**: A maioria dos imóveis possuem valor do m2 abaixo dos 20000 reais e estão localizados em áreas onde as médias de pessoas com rendimento nominal mensal é abaixo dos 20000 reais, ou seja, baixo também.A partir do momento que o valor do m2 sobe acima dos 20000 reais, a renda nominal média continua baixo, e a partir do momento que a renda nominal média fica acima dos 20000 reais, o valor do m2 continua baixo também , mostrado também na correlação que é menor que 0.5 e tudo isso, talvez por causa da aŕea localizada ou por opção das pessoas mesmo. **Pessoas com rendas mais baixas não precisam adquirir imóveis com valores muito altos como observamos no gráfico em algumas situações. Existem vários imóveis com valores/m2 abaixo dos 20000 reais e com atributos(metragem,quartos,banheiros e vagas) não tão diferentes dos imóveis de valores acima de 20000/m2**.
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/c932093b-785e-4cc5-8f3c-e0668a5c5ded.png" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b3f3ba5c-303f-446f-af48-d2d3b84f3ff5.png" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/4a4a0603-2f69-4d4e-b111-9e0ae9e8fa15.png" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
+* Os 10 bairros com mais imóveis em São Paulo não seguem a mesma ordem na faixa das metragens e preços/m² dos imóveis. O bairro Jardim Guedala  possui faixa de preços similares aos outros e metragens maiores.
+  
+* Os valores das médias apenas de pessoas com rendimento nominal médio mensal não é diretamente proporcional ao valor do m² dos imóveis. Pessoas com rendas mais altas não necessariamente optam por adquirir imóveis com valores elevados, logo o empréstimo pode ser baixo também.
 
 # 6 Machine Learning pós Validação cruzada
 
