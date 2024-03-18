@@ -63,23 +63,36 @@ O projeto completo pode ser encontrado neste link:
 * **Algoritmo de Machine Learning** - Com os dados modelados, vamos usar alguns algoritmos de Machine Learning de regressão para achar a melhor acurácia e baixos erros. Uso de Validação Cruzada e hiperparâmetros para deixa-la  ainda mais precisos os modelos e colocar em prática no final.
 * **Avaliação de Algoritmo** - Comparação dos resultados dos algoritmos de regressão usados e utilizar o de melhor acurácia e baixos erros para colocar em prática a questão de negócios.
 * **Deploy** - Através do cloud da AWS, implantamos o nosso modelo de Machine Learning e esse modelo responderá requisições via API por meio do Telegram Bot.
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/98d4ccb1-16d8-4167-8f25-b38c8470b51a" alt="pic1" style="zoom:55% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/a0ac90ce-c2ad-43ff-8363-0c837547ccab" alt="pic1" style="zoom:55% ;" />
+
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/a0670b19-7486-42bd-b18c-8c6e7daac7e0" alt="pic1" style="zoom:55% ;" />
+
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/778d4365-6265-4262-bfe9-61dadd5b24cf" alt="pic1" style="zoom:55% ;" />
 
 # 5 Análises exploratórias dos dados
 **Variável de Destino**
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/a694910f-6430-4ed9-ad29-b0c9728d3b99.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/e1fe9826-e8ec-4081-985e-24b1ff860389" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 
 **Variável Numérica**
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/5f027ef2-27cf-43d0-98a5-a29472100ae6.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/4d60a24e-860d-4cca-a6cb-3758f106af81" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/6fcd77a1-1a73-4096-ba46-565f8fa4309c.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/f0cd0226-87b7-47a7-8dc4-916158ea8337" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 **Variável Categórica**
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b6d13dfd-2978-438e-a569-22c0a46ad226.png" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/bffc17fc-71fc-48bc-8e31-46b4afde060d" alt="pic1" style="zoom:60% ;" />
+<spacer type="horizontal" width="10" height="10">  </spacer>
+
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/8c053342-39a0-4600-865d-369689d1f3a3" alt="pic1" style="zoom:60% ;" />
+<spacer type="horizontal" width="10" height="10">  </spacer>
+
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/75db925e-bede-49f9-8105-35059077b097" alt="pic1" style="zoom:60% ;" />
+<spacer type="horizontal" width="10" height="10">  </spacer>
+
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/b4c4eed5-24c8-4a76-8505-798f8206345d" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 ## Insights de negócio
@@ -120,42 +133,30 @@ O projeto completo pode ser encontrado neste link:
 <img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/4a4a0603-2f69-4d4e-b111-9e0ae9e8fa15.png" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
-# 6 Machine Learning
+# 6 Machine Learning pós Validação cruzada
 
-Usamos alguns modelos de Machine Learning de regressão com o objetivo de obter a melhor acurácia e o menor número de erros possíveis.Como observado, o modelo **Randon Forest Regressor** foi o que teve o melhor resultado do **RMSE(0.290553)** dentre todos usados, com os valores bem melhores como a acurácia(R2_Score), erro médio absoluto(MAE), raiz quadrada do erro médio(RMSE) e a média percentual absoluta do erro(MAPE), logo o utilizamos para obter resultados mais precisos no modelo final.
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/f3e63c7d-8b38-4832-bed1-b9ec3f623842.jpg" alt="pic1" style="zoom:60% ;" />
+Usamos alguns modelos de Machine Learning de regressão pós validação cruzada e testamos regularizações para diminuição de overfiting. Comparamos os resultados à uma improvisação de modelo que calcula a média dos dados reais como predição para servir de guia , tudo isso com o objetivo de obter a melhor acurácia e o menor número de erros possíveis.
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/7ee1a743-487e-4a32-9431-d8f9800d6314.jpg" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
+
+Como observado, os modelos de regressão e suas regularizações obtiveram resultados piores que o modelo guia, provavelmente a distribuição dos dados não segue um padrão linear. O **XGBoost Regressor** foi o que teve o melhor resultado dentre todos usados, com os valores bem melhores como erro médio absoluto(MAE), raiz quadrada do erro médio(RMSE) e a média percentual absoluta do erro(MAPE), logo o utilizamos para obter resultados mais precisos no modelo final.
+
 
 ## 6.1 Resultados para o negócio
 
 Esse projeto visa avaliar quanto vale um determinado imóvel na cidade de São Paulo que é usado como garantia de um empréstimo feito por um cliente na empresa **Creditas** .Após todas as análises exploratórias dos dados de imóveis de São Paulo e aplicações de modelos de Machine Learning, conseguimos obter as predições desses mesmos dados com uma boa acurácia e baixo erro. Com esses valores obtidos podemos estimar aproximadamente quanto a empresa **Creditas** vai poder emprestar à um possível cliente que deseje ter acesso a esse empréstimo no melhor e pior cenário.
 
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/067ae7be-c2bf-45e6-9f29-a9c1b6edd335.jpg" alt="pic1" style="zoom:60% ;" />
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/1dddafe9-771f-4db4-aa15-2a443e0b0c04" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
 ## 6.2 Desempenho de Machine Learning
 
-O modelo usado foi o **Randon Forest Regressor** e os resultados obtidos foram esses abaixo:
+O modelo usado foi o **XGBoost Regressor** e os resultados obtidos após os hiperparâmetros foram esses abaixo:
 
-|Modelo                  | MAE                  | MAPE                |f1-RMSE               | R2_Score AUC       |  
-:----------------------- | :--------------------| :------------------ | :--------------------| :------------------| 
-|Randon Forest Regressor | 0.268445             | 0.018612            | 0.349989             |0.851748            |
+|Modelo                  | MAE                  | MAPE                |RMSE                  |   
+:----------------------- | :--------------------| :------------------ | :--------------------| 
+|XGBoost Regressor       | 78328.616            | 0.020               | 344912.21            |
 
-* Nesse prmeiro gráfico podemos observar os dados não completamente iguais, com algumas diferenças, mas com uma certa similaridade entre os valores reais e as predições.
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/6df0aa06-57c1-4c78-abde-fcb08cac93f8.png" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-* Nesse segundo gráfico observamos a taxa de erro de cada valor de anúncio. Alguns poucos valores das predições 4 vezes maiores que o valor real de anúncio, mas em geral estão todos bem próximos um do outro(próximos de 1).
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/32b55eb4-1b77-446c-b685-2ce63002199e.png" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
-
-* Nesse terceiro gráfico podemos observar as dispersões entre valor real e predições, no qual podemos notar que há uma boa correlação entre os 2 dados.
-
-<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/6299ad55-b0f3-488e-bcfa-3d7641bc2d22.png" alt="pic1" style="zoom:60% ;" />
-<spacer type="horizontal" width="10" height="10">  </spacer>
 
 # 7 Próximos passos
 
