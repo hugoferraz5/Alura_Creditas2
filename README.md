@@ -159,17 +159,17 @@ O modelo usado foi o **Randon Forest Regressor** e os resultados obtidos foram e
 
 # 7 Próximos passos
 
-- Utilizar outros Modelos e Machine Learning para testar se os resultados podem ser ainda melhores.
+- Utilizar outros Modelos de Machine Learning para testar se os resultados podem ser ainda melhores.
 - Melhorar as respostas do telgregam bot com implementação de gráficos.
 - Adicionar mais Hipóteses para análise de dados.
 - Melhorar as análises de dados com adições de gráficos mais claros.
 
 # 8.0 - Ferramentas utilizadas
 
-Manipulação e limpeza dos dados: pandas, numpy
+Manipulação e limpeza dos dados: pandas, numpy.
 
-VIsualização dos dados: matplotlib, seaborn
+Visualização dos dados: matplotlib, seaborn.
 
-Machine learning: Regressão (scikit-learn e Random Forrest Regressor), selação de features (Boruta)
+Machine learning: Regressão (scikit-learn e XGBoost Regressor), seleção de features (Boruta).
 
-Ambiente Cloud: Flask, requests, Ngrok, desenho de API, AWS e Telegram BOT
+Ambiente Cloud: Flask, requests, Ngrok, desenho de API, AWS e Telegram BOT.
