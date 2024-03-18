@@ -136,6 +136,10 @@ O projeto completo pode ser encontrado neste link:
 # 6 Machine Learning pós Validação cruzada
 
 Usamos alguns modelos de Machine Learning de regressão pós validação cruzada e testamos regularizações para diminuição de overfiting. Comparamos os resultados à uma improvisação de modelo que calcula a média dos dados reais como predição para servir de guia , tudo isso com o objetivo de obter a melhor acurácia e o menor número de erros possíveis.
+
+<img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/55b547ea-2ad0-4438-b2ee-03b287247530" alt="pic1" style="zoom:60% ;" />
+<spacer type="horizontal" width="10" height="10">  </spacer>
+
 <img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/7ee1a743-487e-4a32-9431-d8f9800d6314.jpg" alt="pic1" style="zoom:60% ;" />
 <spacer type="horizontal" width="10" height="10">  </spacer>
 
