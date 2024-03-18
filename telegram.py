@@ -7,16 +7,16 @@ from flask import Flask, request, Response
 from handler import creditas_predict
 
 # constants
-data_path = '' #'/home/hugo/Hugo/Projetos/Projeto-SaoPaulo/Projeto/'
+data_path = '' #'/home/hugo/Hugo/Projeto_SaoPaulo/'
 
 # Get about me
-#https://api.telegram.org/bot6808034007:AAHBOUQNPU62qcPP6CyFvlZ-BesMANOeRGc/getMe
+#https://api.telegram.org/bot7131737814:AAGe-dIKAAsfgW-RCyECPAxCqB2nf67HoxY/getMe
 
 # Get updates
-#https://api.telegram.org/bot6808034007:AAHBOUQNPU62qcPP6CyFvlZ-BesMANOeRGc/getUpdates
+#https://api.telegram.org/bot7131737814:AAGe-dIKAAsfgW-RCyECPAxCqB2nf67HoxY/getUpdates
 
 # Set webhook
-#https://api.telegram.org/bot6808034007:AAHBOUQNPU62qcPP6CyFvlZ-BesMANOeRGc/setWebhook?url=url=https://36f2-3-81-101-34.ngrok-free.app/
+#https://api.telegram.org/bot7131737814:AAGe-dIKAAsfgW-RCyECPAxCqB2nf67HoxY/setWebhook?url=https://b447-54-158-3-152.ngrok-free.app/
 
 def send_message(chat_id, text):
     url = 'https://api.telegram.org/bot{}/'.format(token)
@@ -84,7 +84,7 @@ def predict_sales(data):
 
 # API initialize
 app = Flask(__name__)
-token = '6808034007:AAHBOUQNPU62qcPP6CyFvlZ-BesMANOeRGc'
+token = '7131737814:AAGe-dIKAAsfgW-RCyECPAxCqB2nf67HoxY'
 
 @app.route('/', methods=['GET', 'POST'])
 
@@ -105,7 +105,7 @@ def index():
                 #calculation
                 for i in range(len(d1)):
     
-                    message = 'O preço do imóvel {} selecionado é ${:,.2f}'.format(i,d1.loc[i, 'predição'])
+                    message = 'O preço do imóvel {} selecionado é ${:,.2f}'.format(i,d1.iloc[i]['predição'])
                     
                 #send message
                 send_message(chat_id, message)

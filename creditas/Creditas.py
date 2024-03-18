@@ -12,7 +12,7 @@ class Creditas(object):
 
     def data_cleaning(self, df1):
         ##2.4 Formatação dos dados
-
+	# Excluindo coluna inútil
 
         # Excluindo colunas com valores únicos
         df1.drop(
@@ -406,24 +406,14 @@ class Creditas(object):
         return freq_codificada
 
     def data_preparation(self, df5):
-        categorical = df5[
-            [
-                "bairro",
-                "quartos",
-                "banheiros",
-                "vagas",
-                "rua",
-                "cep",
-                "setor_censo",
-                "nome_do_distrito",
-                "sub_regiões",
-                "setor",
-                "sub_setor",
-                "divisao_sub_setor",
-                "quant_dom_part",
-                "quant_mor",
-            ]
-        ].copy()
+        df5.reset_index(drop=True, inplace=True)
+
+        categorical = df5[["bairro","quartos","banheiros","vagas","rua","cep",
+                           "setor_censo","nome_do_distrito","situacao_setor",
+                           "sub_regiões","setor","sub_setor","divisao_sub_setor",
+                           "quant_dom_part","quant_mor"]].copy()
+        
+        
         numerical = df5[
             [
                 "metragem",
@@ -441,17 +431,17 @@ class Creditas(object):
                 "v009",
                 "v010",
                 "v011",
-                "v012",
+                "v012"
             ]
         ].copy()
-        binary = df5[["situacao_setor", "tipo_setor"]].copy()
+        binary = df5[[ "tipo_setor"]].copy()
 
         Alvo_var = df5[["valor_anuncio"]].copy()
         Alvo_var["valor_anuncio"] = np.log1p(Alvo_var["valor_anuncio"])
 
         numerical.drop(columns=["valor_anuncio"], inplace=True)
 
-        numerical_1 = self.Robust_scaler.fit_transform(numerical[["metragem","valor_mm","valor_m2","v001","v002","v003",
+        numerical_1 = self.Robust_scaler.transform(numerical[["metragem","valor_mm","valor_m2","v001","v002","v003",
                                                                   "v004","v005","v006","v007","v008","v009",
                                                                   "v010","v011","v012",]].values)
         numerical_2 = pd.DataFrame(
@@ -481,28 +471,10 @@ class Creditas(object):
 
         df6 = pd.concat([binary, numerical_2, categorical_2, Alvo_var], axis=1)
         df6 = df6.astype(float)
-        df6 = df6[
-            [
-                "metragem",
-                "vagas",
-                "banheiros",
-                "bairro",
-                "quartos",
-                "v011",
-                "v007",
-                "v005",
-                "v009",
-                "nome_do_distrito",
-                "cep",
-                "rua",
-                "setor_censo",
-                "setor",
-                "divisao_sub_setor",
-                "v003",
-                "sub_regiões",
-                "v004",
-            ]
-        ]
+        df6 = df6[['metragem', 'valor_mm', 'valor_m2', 'v003', 'v004','v005','v006','v007','v008','v009','v010',
+        'v011','v012','bairro','quartos','banheiros','vagas','rua','cep','setor_censo',
+        'nome_do_distrito','sub_regiões','setor']]
+        df6.drop(columns=['valor_mm'],inplace=True)
 
         return df6
 
