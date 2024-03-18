@@ -72,13 +72,13 @@ O projeto completo pode ser encontrado neste link:
 
 # 5 Insights de negócio
 
-* Os 10 bairros com o maior número de imóveis em São Paulo podem não necessariamente coincidir com os bairros que apresentam os preços imobiliários mais elevados. Por exemplo, mesmo que Brooklin Paulista tenha uma quantidade significativa de imóveis, os valores associados a esses imóveis podem ser relativamente mais baixos em comparação com outros bairros. Consequentemente, os empréstimos concedidos a pessoas que possuem imóveis no Brooklin Paulista podem não atingir montantes tão altos quanto em outros locais com valores imobiliários mais elevados.
+* Os 10 bairros com o maior número de imóveis em São Paulo podem não necessariamente coincidir com os bairros que apresentam os preços imobiliários mais elevados. A empresa pode oferecer condições mais favoráveis, como taxas de juros mais baixas, para imóveis localizados em bairros com maior demanda e valores de propriedade mais estáveis, assim, ela pode aumentar o volume de empréstimos nesses locais..
   
-* Os 10 bairros mais densamente povoados por imóveis em São Paulo mantêm a mesma ordem tanto no número de vagas quanto no número de quartos, alinhando-se com as características de metragem dessas propriedades. 
+* Observamos que todos os 10 bairros mais povoados por imóveis possuem similaridade quanto a ordem de vagas, quartos e metragens.A empresa pode desenvolver critérios padronizados para avaliar os imóveis oferecidos como garantia, levando em consideração a ordem de vagas, quartos e metragens. Isso pode ajudar a simplificar e agilizar o processo de avaliação de risco, garantindo consistência em todo o portfólio de empréstimos.
 
-* Os 10 bairros com mais imóveis em São Paulo não seguem a mesma ordem na faixa das metragens e preços/m² dos imóveis. O bairro Jardim Guedala  possui faixa de preços similares aos outros e metragens maiores.
+* Os 10 bairros com mais imóveis em São Paulo não seguem a mesma ordem na faixa das metragens e preços/m² dos imóveis. Ao reconhecer que algumas faixas de metragens não seguem necessariamente a mesma ordem do preço por metro quadrado, a empresa pode ajustar sua avaliação de risco e precificação de empréstimos de acordo com essa discrepância.
   
-* Os valores das médias apenas de pessoas com rendimento nominal médio mensal não é diretamente proporcional ao valor do m² dos imóveis. Pessoas com rendas mais altas não necessariamente optam por adquirir imóveis com valores elevados, logo o empréstimo pode ser baixo também.
+* Os valores das médias apenas de pessoas com rendimento nominal médio mensal não é diretamente proporcional ao valor do m² dos imóveis. A empresa pode usar essa informação para avaliar melhor o risco associado aos empréstimos garantidos por imóveis e ajustar sua política limitando o valor pela média do valor/m² de cada bairro.
 
 # 6 Machine Learning pós Validação cruzada
 
