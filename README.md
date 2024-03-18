@@ -60,9 +60,10 @@ O projeto completo pode ser encontrado neste link:
 * **Limpeza dos Dados** - Fazer a limpeza dos dados se existirem valores discrepantes e valores vazios através da linguagem Python. 
 * **Exploração dos Dados** - Explorar os dados através de respostas à perguntas do CEO da empresa, achar bons insights pelas hipóteses levantadas e apresenta-los por meio de gráficos.
 * **Modelagem dos Dados** - Fazer boas modelagens(correlações, reescalonamento, codificações, frequência dos dados) afim de facilitar as leituras dos modelos de Machine Learning. Achar os melhores recursos para os algoritmos.
-* **Algoritmo de Machine Learning** - Com os dados modelados, vamos usar alguns algoritmos de Machine Learning de regressão para achar a melhor acurácia e baixos erros. Uso de Validação Cruzada e hiperparâmetros para deixa-la  ainda mais precisos os modelos e colocar em prática no final.
+* **Algoritmo de Machine Learning** - Com os dados modelados, vamos usar alguns algoritmos de Machine Learning de regressão para achar a melhor acurácia e baixos erros. Uso de Validação Cruzada e hiperparâmetros para deixa-los  ainda mais precisos e colocar em prática no final.
 * **Avaliação de Algoritmo** - Comparação dos resultados dos algoritmos de regressão usados e utilizar o de melhor acurácia e baixos erros para colocar em prática a questão de negócios.
-* **Deploy** - Através do cloud da AWS, implantamos o nosso modelo de Machine Learning e esse modelo responderá requisições via API por meio do Telegram Bot.
+* **Deploy** - Utilizando a infraestrutura na nuvem da AWS, implementamos nosso modelo de Machine Learning para responder a solicitações através de uma API acessível por meio de um Telegram Bot. Esta integração permite uma interação eficiente e conveniente com nosso modelo, fornecendo respostas precisas e em tempo real às consultas dos usuários diretamente através do aplicativo Telegram. Essa abordagem utiliza recursos avançados de computação em nuvem da AWS para garantir desempenho, escalabilidade e confiabilidade, enquanto oferece uma experiência de usuário aprimorada e acessível.
+  
 <img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/a0ac90ce-c2ad-43ff-8363-0c837547ccab" alt="pic1" style="zoom:55% ;" />
 
 <img src="https://github.com/hugoferraz5/Alura_Creditas2/assets/91911052/a0670b19-7486-42bd-b18c-8c6e7daac7e0" alt="pic1" style="zoom:55% ;" />
