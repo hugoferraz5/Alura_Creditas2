@@ -10,7 +10,7 @@ O brasileiro tem fácil acesso às piores taxas de juros, e a Creditas nasceu pa
 
 # 2 Apresentação
 Nesse projeto proposto pela Alura, obtive um modelo de Regressão com o objetivo de predizer quanto vale um determinado imóvel na cidade de São Paulo que é usado como garantia de um empréstimo feito por um cliente na empresa Creditas. A fim de obter valores mais próximos possíveis do real, fiz uma análise exploratória dos dados existentes de imóveis com várias informações para facilitar o entendimento do negócio e conseguir o objetivo final. O modelo foi colocado em produção no ambiente cloud do AWS, além da criação de um bot Telegram que é capaz de responder a pergunta **Quanto vale um determinado imóvel na cidade de São Paulo?**. O usúario coloca um ID pelo Telegram e o modelo responde com o valor da predição se esse ID existir.
-- O robô pode ser acessado através desse link: <a href="https://t.me/creditas_tel_bot">TelegramBot</a> 
+- O robô pode ser acessado através desse link: <a href="https://t.me/hitell_bot">TelegramBot</a> 
 - Informações sobre a Creditas podem ser encontradas nesse link: <a href="https://www.creditas.com/quem-somos">siteCreditas</a>
 
 O projeto completo pode ser encontrado neste link:
